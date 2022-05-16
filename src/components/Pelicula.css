@@ -1,0 +1,10 @@
+.card{
+    background-color: var(--menos-oscuro) !important;
+    color: var(--text);
+}
+
+.btn_custom{
+    background-color: var(--medio) !important;
+    margin-left: 20%;
+}
+

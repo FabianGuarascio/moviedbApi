@@ -1,0 +1,17 @@
+.topContainer{
+    background-color: var(--menos-oscuro);
+        
+        color: var(--mas-claro);
+    }
+    .container{
+        gap: 2rem;
+        display: flex;
+        justify-content: center;
+        transform: translateX(10%);
+    }
+    .container>span{
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        
+    }
