@@ -1,6 +1,6 @@
 import React from 'react'
+import Carrousel from '../components/Carrousel'
 import Header from '../components/Header'
-import Pelicula from '../components/Pelicula'
 import classes from './Home.module.css'
 
 function Home() {
@@ -8,7 +8,10 @@ function Home() {
         <>
             <div className={`${classes.container}`}>
                 <Header/>
-                <Pelicula/>
+                <div>
+              
+                </div>
+                <Carrousel/>
             </div>
         </>
     )
