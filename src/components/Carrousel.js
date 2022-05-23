@@ -11,16 +11,14 @@ function Carrousel() {
   useEffect(() => {
       axios.get(url)
       .then(res=> setMoviesList(res.data.results))
-    // .then(res=> console.log(res.data.results[0]))
     .catch(err=>{
         console.log(err)
     })
     }, [])
-     moviesList.length && console.log(moviesList[0].title)
   return (
     <>
     {moviesList.length && 
-        <Carousel fade controls={false} indicators={false} interval={1500}>
+        <Carousel fade controls={false} indicators={false} interval={2000}>
             <Carousel.Item className='item'>
                 <img
                     className="d-block image"
@@ -28,7 +26,7 @@ function Carrousel() {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 style={{color:"black"}}>{moviesList[0].title}</h3>
+                    <h3 className='carousel_title'>{moviesList[0].title}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className='item'>
@@ -38,7 +36,7 @@ function Carrousel() {
                 alt="Second slide"
                 />
                 <Carousel.Caption>
-                <h3>{moviesList[1].title}</h3>
+                <h3 className='carousel_title'>{moviesList[1].title}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className='item'>
@@ -48,7 +46,7 @@ function Carrousel() {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                <h3>{moviesList[2].title}</h3>
+                <h3 className='carousel_title'>{moviesList[2].title}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item className='item'>
@@ -58,7 +56,7 @@ function Carrousel() {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                <h3 style={{color:"yellow"}}>{moviesList[3].title}</h3>
+                <h3 className='carousel_title'>{moviesList[3].title}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>}
