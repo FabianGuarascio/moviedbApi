@@ -17,6 +17,7 @@ h2{
     text-align: center;
     background-color: var(--menos-oscuro);
     border-radius: 6px;
+    margin-top: 2rem;
 }
 iframe{
     width: 100%;
