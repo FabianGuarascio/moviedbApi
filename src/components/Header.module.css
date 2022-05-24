@@ -19,3 +19,12 @@
     Link{
         text-decoration: none;
     }
+    .icon{
+        color: var(--mas-claro);
+        scale: 1.3;
+    }
+    .link_movies{
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
