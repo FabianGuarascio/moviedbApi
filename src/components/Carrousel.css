@@ -19,4 +19,6 @@
     display: inline;
     border-radius: 16px;
     padding: 0.2rem;
+    border: solid 1.5px var(--claro);
+    box-shadow: 0.41rem 0.41rem 0.2rem var(--oscuro);
 }

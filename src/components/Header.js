@@ -5,8 +5,8 @@ import classes from './Header.module.css'
 
 function Header() {
   return (
-    <div className={classes.topContainer}>
-      <div className={classes.container}>
+    <header className={classes.topContainer}>
+      <nav className={classes.container}>
         <Link to='/'>
           
           <span className='span animate__animated animate__shakeY '>Home</span>
@@ -17,8 +17,8 @@ function Header() {
         <Link to='/contact'>
           <span>Contact</span>
         </Link>
-      </div>
-    </div>
+      </nav>
+    </header>
   )
 }
 
