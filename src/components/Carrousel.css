@@ -18,7 +18,11 @@
     background-color: var(--menos-oscuro);
     display: inline;
     border-radius: 16px;
-    padding: 0.2rem;
+    /* padding: 0.2rem; */
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
     border: solid 1.5px var(--claro);
     box-shadow: 0.41rem 0.41rem 0.2rem var(--oscuro);
+    font-family: 'Koulen', cursive;
+
 }

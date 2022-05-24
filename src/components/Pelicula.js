@@ -34,7 +34,7 @@ function Pelicula() {
         <Card style={{ width: '18rem' }} className={`col-3 mt-3 card`} key={movie.id}>
             <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} className='mt-3' />
             <Card.Body className='cardBody'>
-                <Card.Title>{movie.title}</Card.Title>
+                <Card.Title className='card_title'>{movie.title}</Card.Title>
                 <Card.Text>
                     {(movie.overview).substring(0,100)}...
                 </Card.Text>

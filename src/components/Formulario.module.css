@@ -18,6 +18,7 @@ h2{
     background-color: var(--menos-oscuro);
     border-radius: 6px;
     margin-top: 2rem;
+    font-family: 'Koulen', cursive;
 }
 iframe{
     width: 100%;
